@@ -97,9 +97,9 @@
 }
 .banner {
     padding-top: 70px;
-    // padding-bottom: 65px;
     .banner-left {
         width: 350px;
+        float: left;
     }
     .banner-title {
         font-weight: 700;
@@ -299,4 +299,7 @@
     .footer-politic-link:hover {
         color: #c12c11;
     }
+}
+.socialnet:hover {
+    fill: #cbeef4;
 }

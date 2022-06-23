@@ -123,6 +123,7 @@
 
 .banner .banner-left {
   width: 350px;
+  float: left;
 }
 
 .banner .banner-title {
@@ -358,5 +359,9 @@
 
 .footer-politic-wrapper .footer-politic-link:hover {
   color: #c12c11;
+}
+
+.socialnet:hover {
+  fill: #cbeef4;
 }
 /*# sourceMappingURL=style.css.map */
