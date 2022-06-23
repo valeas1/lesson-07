@@ -60,18 +60,18 @@
   padding-top: 20px;
 }
 
-.logo-call_tel .phone {
+.phone {
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
   color: #000000;
 }
 
-.logo-call_tel .phone:hover {
+.phone:hover {
   color: #c12c11;
 }
 
-.logo-call_tel .phone-btn {
+.phone-btn {
   font-size: 14px;
   line-height: 16px;
   color: #000000;
@@ -82,12 +82,12 @@
   margin-left: 40px;
 }
 
-.logo-call_tel .phone-btn:hover {
+.phone-btn:hover {
   background: #f5f1f1;
   cursor: pointer;
 }
 
-.logo-call_tel .phone-btn:active {
+.phone-btn:active {
   background: #f2ecec;
 }
 
@@ -189,14 +189,9 @@
   width: 255px;
   display: inline-block;
   text-align: center;
-  padding: 5px;
+  padding: 25px 5px;
   margin-right: 30px;
   margin-bottom: 30px;
-}
-
-.special .offers-article-img {
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .special .offers-article-text {
@@ -204,8 +199,16 @@
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  color: #333333;
   margin-bottom: 20px;
+}
+
+.special .offers-article-text a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.special .offers-article-text a:hover {
+  color: #c12c11;
 }
 
 .special .offers-article-price {
@@ -223,12 +226,11 @@
   line-height: 16px;
   text-align: center;
   letter-spacing: 0.05em;
+  text-decoration: none;
   color: #FFFFFF;
-  border-style: none;
   background: #F13C6E;
   border-radius: 30px;
   padding: 7px 39px;
-  margin-bottom: 20px;
 }
 
 .special .offers-article-btn:hover {
@@ -242,5 +244,120 @@
 
 .special .mr-0 {
   margin-right: 0;
+}
+
+.footer-wrapper1 {
+  background: #FFFFFF;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.footer-title {
+  font-size: 0;
+  padding-top: 86px;
+}
+
+.footer-title .footer-title-text {
+  width: 255px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140.62%;
+  color: #000000;
+  display: inline-block;
+  margin-right: 30px;
+  border-bottom: 1px solid #EFEFEF;
+  padding-bottom: 50px;
+}
+
+.footer-title .mr-0 {
+  margin-right: 0;
+}
+
+.footer-lists {
+  padding-top: 34px;
+  padding-bottom: 56px;
+}
+
+.footer-lists .footer-lists-list {
+  font-size: 0;
+}
+
+.footer-lists .list {
+  list-style: none;
+  display: inline-block;
+  width: 255px;
+  margin-right: 30px;
+}
+
+.footer-lists .footer-lists-list-item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.footer-lists .mr-0 {
+  margin-right: 0;
+}
+
+.footer-lists a {
+  text-decoration: none;
+  color: #828282;
+}
+
+.footer-lists a:hover {
+  color: #c12c11;
+}
+
+.footer-social-wrapper {
+  background: #FFFFFF;
+}
+
+.footer-social {
+  padding: 37px 0;
+}
+
+.footer-social-left {
+  float: left;
+}
+
+.footer-social-left-link {
+  margin-right: 15px;
+}
+
+.footer-social-left .blue:hover {
+  fill: #cef9f4;
+}
+
+.footer-social-right {
+  float: right;
+}
+
+.footer-politic-wrapper {
+  background: #EFEFEF;
+}
+
+.footer-politic-wrapper .footer-politic {
+  padding: 25px 0;
+}
+
+.footer-politic-wrapper .footer-politic-text {
+  float: left;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
+
+.footer-politic-wrapper .footer-politic-link {
+  float: right;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  text-decoration: none;
+  color: #828282;
+}
+
+.footer-politic-wrapper .footer-politic-link:hover {
+  color: #c12c11;
 }
 /*# sourceMappingURL=style.css.map */
