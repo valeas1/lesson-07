@@ -24,13 +24,13 @@
 }
 .top-line {
     text-align: right;
-    padding-top: 17px;
+    padding-top: 15px;
     padding-bottom: 15px;
     a {
         line-height: 16px;
         text-decoration: none;
         color: #333333;
-        margin-left: 30px;
+        margin-left: 27px;
     }
     a:hover {
         color: #c12c11;
@@ -41,8 +41,8 @@
     border: 1px solid #EFEFEF;
 }
 .logo-call {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 19px;
+    padding-bottom: 13px;
 }
 .logo-call_tel {
     float: right;
@@ -65,7 +65,7 @@
     border: 2px solid #F13C6E;
     border-radius: 40px;
     padding: 10px 27px;
-    margin-left: 40px;
+    margin-left: 35px;
 }
 .phone-btn:hover {
     background: #f5f1f1;
@@ -79,8 +79,8 @@
 }
 .menu {
     text-align: center;
-    padding-top: 33px;
-    padding-bottom: 33px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     a {
         text-decoration: none;
         font-size: 16px;
@@ -106,12 +106,12 @@
         font-size: 48px;
         line-height: 56px;
         color: #FFFFFF;
-        padding-top: 130px;
-        padding-bottom: 43px;
+        padding-top: 122px;
+        padding-bottom: 38px;
     }
     .banner-text {
         color: #FFFFFF;
-        padding-bottom: 50px;
+        padding-bottom: 45px;
     }
     .banner-btn {
         font-size: 14px;
@@ -132,8 +132,8 @@
     }
     .banner-img {
         float: right;
-        margin-top: -52px;
-        margin-right: 180px;
+        margin-top: -50px;
+        margin-right: 200px;
     }
 }
 .special-wrapper {
@@ -156,9 +156,9 @@
         width: 255px;
         display: inline-block;
         text-align: center;
-        padding: 25px 5px;
+        padding: 28px 5px;
         margin-right: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 28px;
     }
     .offers-article-img {
     }
@@ -167,7 +167,8 @@
         font-size: 14px;
         line-height: 20px;
         text-align: center;
-        margin-bottom: 20px;
+        padding-top: 7px;
+        margin-bottom: 15px;
         a {
             text-decoration: none;
             color: #333333;
@@ -182,7 +183,7 @@
         line-height: 25px;
         letter-spacing: 0.05em;
         color: #000000;
-        margin-bottom: 20px;
+        margin-bottom: 23px;
     }
     .offers-article-btn {
         font-weight: 400;
@@ -194,7 +195,7 @@
         color: #FFFFFF;
         background: #F13C6E;
         border-radius: 30px;
-        padding: 7px 39px;
+        padding: 8px 41px;
     }
     .offers-article-btn:hover {
         background: #df3767;
@@ -213,7 +214,7 @@
 }
 .footer-title {
     font-size: 0;
-    padding-top: 86px;
+    padding-top: 84px;
     .footer-title-text {
         width: 255px;
         font-weight: 500;
@@ -223,15 +224,15 @@
         display: inline-block;
         margin-right: 30px;
         border-bottom: 1px solid #EFEFEF;
-        padding-bottom: 50px;
+        padding-bottom: 46px;
     }
     .mr-0 {
         margin-right: 0;
     }
 }
 .footer-lists {
-    padding-top: 34px;
-    padding-bottom: 56px;
+    padding-top: 23px;
+    padding-bottom: 50px;
     .footer-lists-list {
         font-size: 0;
     }
@@ -261,16 +262,18 @@
     background: #FFFFFF;
 }
 .footer-social {
-    padding: 37px 0;
+    padding-top: 37px;
+    padding-bottom: 33px;
 }
 .footer-social-left {
     float: left;
     &-link {
-        margin-right: 15px;
+        margin-right: 16px;
     }
 }
 .footer-social-right {
     float: right;
+    padding-top: 4px;
 }
 .footer-politic-wrapper {
     background: #EFEFEF;
